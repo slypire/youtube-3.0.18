@@ -830,6 +830,7 @@ function debug(content, type) {
     }
     return new Promise(function (saveNotifs) {
       var x;
+      //tptelefon01 api
       if (!($scope.keys && "AIzaSyDl_OR7GDR6C7pQDzWufsH3ZSiqlQ8Pca8" !== $scope.keys[0].key)) {
         /** @type {!XMLHttpRequest} */
         x = new XMLHttpRequest;
@@ -5975,10 +5976,12 @@ function debug(content, type) {
       case 9:
       case 10:
       case 11:
-        key = 'AIzaSyCg9kk2BQy1Sy3RTeTvOfPCLgYEU90SHVs';
+        //pzs.marko api
+        key = 'AIzaSyDeVmNGISmsthemZFffXYCYW1ux5oONAGo';
         break;
       default:
-        key = 'AIzaSyDsX25pJtaMsXd6d7Np1CBwHdsgN3QchwA';
+        //tptelefon02 api
+        key = 'AIzaSyDcJvQ3Fh9iUtIlo5UoyQGSuc3HthSAjM0';
     }
     var url = 'https://www.googleapis.com/youtube/v3/videos' +
       '?key=' + key +
